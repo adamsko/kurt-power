@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KurtPower</string>
+    <string name="menu_heart_rate">Connect Heart Rate</string>
+    <string name="menu_power">Connect Power</string>
+    <string name="menu_test">Toggle test mode</string>
+    <string name="menu_settings">Settings</string>
+</resources>

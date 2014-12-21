@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1" android:id="@+id/layout" android:orientation="vertical">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="80sp"
+            android:gravity="center"
+            android:text="00:00"
+            android:id="@+id/chronometer" android:layout_weight="0.33"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="160sp"
+            android:gravity="center"
+            android:id="@+id/heartRate" android:layout_weight="0.33"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="160sp"
+            android:gravity="center"
+            android:id="@+id/power" android:layout_weight="0.33" android:autoText="false"/>
+</LinearLayout>

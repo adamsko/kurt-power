@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+            android:key="maxHeartRate"
+            android:title="Maximum Heart Rate"
+            android:summary="Your maximum heart rate."
+            android:inputType="number"
+            android:defaultValue="200"/>
+    <EditTextPreference
+            android:key="ftp"
+            android:title="Functional Threshold Power"
+            android:summary="The power output you can maintain over one hour."
+            android:inputType="number"
+            android:defaultValue="250"/>
+    <EditTextPreference
+            android:key="wheelCircumference"
+            android:title="Wheel circumference"
+            android:summary="The circumference of the wheel in meters. An average 700cx23mm road tire = 2.095m circumference."
+            android:inputType="numberDecimal"
+            android:defaultValue="2.095"/>
+</PreferenceScreen>
